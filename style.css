@@ -1,0 +1,28 @@
+.Main{
+    display: inline-grid;
+    grid-template-columns: 100px 100px 100px 100px; 
+    text-align: center;
+    margin-left: 15vw;
+    margin-top: 50px;
+}
+
+#result{
+    height: 35px;
+    grid-column: 1/5;
+    border-radius: 50px;
+}
+.Number{
+    background-color: grey;
+    border-radius: 50px;
+    padding: 10px;
+    /* border-radius: 50%; */
+    border: 0.2px solid white;
+}
+
+.operations{
+    border-radius: 50px;
+    background-color: orange;
+    padding: 10px;
+    border: 0.2px solid white;
+}
+

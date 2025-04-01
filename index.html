@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+    <div class="Main">
+       <input type="text"  id="result">
+        <div onclick="clearresult()" class="operations clear">AC</div>
+        <div onclick="delresult()" class="operations del">Del</div>
+        <div onclick="appendtoresult('%')" class="operations percentage">%</div>
+        <div onclick="appendtoresult('+')" class="operations plus">+</div>
+        <div onclick="appendtoresult('-')" class="operations minus">-</div>
+        <div onclick="appendtoresult('*')" class="operations multiply">*</div>
+        <div onclick="appendtoresult('/')" class="operations divide">/</div>
+        <div onclick="calresult()" class="operations isequal">=</div>
+        <div onclick="appendtoresult('1')"class="Number">1</div>
+        <div onclick="appendtoresult('2')"class="Number">2</div>
+        <div onclick="appendtoresult('3')"class="Number">3</div>
+        <div onclick="appendtoresult('4')"class="Number">4</div>
+        <div onclick="appendtoresult('5')"class="Number">5</div>
+        <div onclick="appendtoresult('6')"class="Number">6</div>
+        <div onclick="appendtoresult('7')"class="Number">7</div>
+        <div onclick="appendtoresult('8')"class="Number">8</div>
+        <div onclick="appendtoresult('9')"class="Number">9</div>
+        <div onclick="appendtoresult('0')"class="Number">0</div>
+        <div onclick="appendtoresult('00')"class="Number">00</div>
+        <div onclick="appendtoresult('.')"class="Number">.</div>
+        
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
